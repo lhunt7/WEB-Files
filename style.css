@@ -3,7 +3,13 @@ font-family: arial;
 border: solid black 2px;
 }
 
-
+h1 {
+  font-style: italic;
+}
 .peach {
-  color: rgb(255,229,180)
+  color: rgb(255,218,185)
+}
+
+.background {
+  color: rgb(255,218,185)
 }
