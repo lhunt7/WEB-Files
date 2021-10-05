@@ -1,10 +1,10 @@
 body {
-font-family: arial;
+font-family:"Nunito";
 border: solid rgb(0,100,0) 2px;
 }
 
 h1 {
-  font-style: italic;
+  font-family: "Barriecito"
 }
 .peach {
   color: rgb(255,218,185)
@@ -16,4 +16,8 @@ h1 {
 
 .green {
   color: rgb(0,100,0)
+}
+
+li {
+  font-style: italic;
 }
