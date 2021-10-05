@@ -18,6 +18,6 @@ h1 {
   color: rgb(0,100,0)
 }
 
-li {
-  font-style: italic;
+.italic {
+    font-style: italic;
 }
