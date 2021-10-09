@@ -4,21 +4,42 @@ border: solid rgb(0,100,0) 2px;
 }
 
 h1 {
-  font-family: "Barriecito"
+  font-family: "Barriecito";
+  padding: 10px;
+}
+
+h2 {
+margin-left: 2px;
+}
+
+p {
+margin-left: 5px;
+}
+
+#indent {
+  margin-left: 20px;
 }
 
 .peach {
-  color: rgb(255,218,185)
+  color: rgb(255,218,185);
 }
 
 .background {
-  background-color: rgb(255,218,185)
+  background-color: rgb(255,218,185);
 }
 
 .green {
-  color: rgb(0,100,0)
+  color: rgb(0,100,0);
 }
 
 .italic {
     font-style: italic;
+}
+
+a:link {
+  color: rgb(0,100,0);
+}
+
+a:active {
+  color: #FF8E75
 }
