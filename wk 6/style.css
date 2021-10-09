@@ -41,5 +41,13 @@ a:link {
 }
 
 a:active {
-  color: #FF8E75
+  color: #FF8E75;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+a:hover {
+  font-size: 120%;
 }
