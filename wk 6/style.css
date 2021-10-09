@@ -21,15 +21,15 @@ margin-left: 5px;
 }
 
 .peach {
-  color: rgb(255,218,185);
+  color: #FF8E75;
 }
 
 .background {
-  background-color: rgb(255,218,185);
+  background-color: #FFB6A6;
 }
 
 .green {
-  color: rgb(0,100,0);
+  color: #0F9B6C;
 }
 
 .italic {
@@ -37,7 +37,7 @@ margin-left: 5px;
 }
 
 a:link {
-  color: rgb(0,100,0);
+  color: #0F9B6C;
 }
 
 a:active {
@@ -50,4 +50,8 @@ a:visited {
 
 a:hover {
   font-size: 120%;
+}
+
+button {
+  color
 }
