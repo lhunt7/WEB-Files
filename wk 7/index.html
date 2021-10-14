@@ -9,7 +9,7 @@
 <body>
 
 <section>
-<h1> QUOTE MACHINE </h1>
+<h1 id = "quotemachine"> QUOTE MACHINE </h1>
 <h3> Feeling uninspired? Click the button below to get a random positive quote! </h3>
 <button id="button1"> New Quote </button>
 </section>
@@ -21,7 +21,7 @@
   document.getElementById("button1").addEventListener("click", buttonClicked);
   function buttonClicked(){
     console.log(quotes[quotecount]);
-    console.log(quotecount);
+    document.getElementById('quotemachine')
     if(quotecount>=6){
       quotecount = 0;
     }else{
