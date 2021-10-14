@@ -1,0 +1,61 @@
+body {
+font-family:"Nunito";
+border: solid rgb(0,100,0) 2px;
+}
+
+h1 {
+  font-family: "Barriecito";
+  padding: 10px;
+}
+
+h2 {
+margin-left: 2px;
+}
+
+p {
+margin-left: 5px;
+}
+
+#indent {
+  margin-left: 20px;
+}
+
+.peach {
+  color: #FF8E75;
+}
+
+.background {
+  background-color: #FFB6A6;
+}
+
+.green {
+  color: #0F9B6C;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a:link {
+  color: #0F9B6C;
+}
+
+a:active {
+  color: #FF8E75;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+a:hover {
+  font-size: 120%;
+}
+
+button {
+  background-color: #FFB6A6;
+  font-family: "Barriecito";
+  font-size: 20px;
+  margin: 10px;
+  padding: 5px 20px;
+}
