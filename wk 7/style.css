@@ -1,6 +1,8 @@
 body {
 font-family:"Nunito";
 border: solid #0F9B6C 2px;
+margin: 20vh 20vw;
+padding: 5vh 5vw
 }
 
 h1 {
@@ -10,10 +12,6 @@ h1 {
 
 h3 {
 margin-left: 2px;
-}
-
-p {
-margin-left: 5px;
 }
 
 .peach {
