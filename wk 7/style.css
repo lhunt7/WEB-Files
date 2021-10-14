@@ -39,3 +39,11 @@ button {
   margin: 10px;
   padding: 5px 20px;
 }
+
+button:hover{
+  font-size: 110%;
+}
+
+button:active {
+  color: #FF8E75;
+}
