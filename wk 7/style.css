@@ -1,10 +1,14 @@
 body {
 font-family:"Nunito";
-border: solid #0F9B6C 4px;
+border: solid #0F9B6C 8px;
 margin: 20vh 20vw;
 padding: 3vh 5vw;
 border-radius: 20px;
 background-color: #B7E5D6;
+}
+
+section{
+background-color: white;
 }
 
 h1 {
