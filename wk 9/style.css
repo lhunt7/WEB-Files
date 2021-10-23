@@ -1,0 +1,56 @@
+body {
+  background-color: #B7E5D6;
+  font:"Playfair Display";
+}
+
+h1 {
+font-family: "Playfair Display SC", serif;
+font-weight: bold;
+font-size: 300%;
+text-align: center;
+}
+
+h2 {
+font-family: "Playfair Display SC", serif;
+font-size: 200%;
+font-weight: bold;
+}
+
+#ToDo {
+  width:43%;
+  border: solid 5px;
+  border-color: #0D6145;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  float:left;
+  background-color: #F6F2E6;
+}
+
+#section2 {
+  width:43%;
+  border: solid 5px;
+  border-color: #0D6145;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  float:right;
+  background-color: #F6F2E6;
+}
+
+
+.checklist {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+button {
+  background-color: #F6F2E6;
+  font-family: "Playfair Display SC", serif;
+  border-radius: 10px;
+  border-color: transparent;
+
+}
