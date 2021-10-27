@@ -6,14 +6,24 @@ body {
 h1 {
 font-family: "Playfair Display SC", serif;
 font-weight: bold;
-font-size: 300%;
+font-size: 400%;
 text-align: center;
 }
 
 h2 {
 font-family: "Playfair Display SC", serif;
-font-size: 200%;
+font-size: 220%;
 font-weight: bold;
+}
+
+p {
+font-size: 130%;
+
+}
+
+.checkbox {
+size: 130%;
+
 }
 
 #ToDo {
@@ -38,19 +48,37 @@ font-weight: bold;
   background-color: #F6F2E6;
 }
 
-
 .checklist {
   display: flex;
   flex-direction: column;
 }
 
+#tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.days {
 
+}
 
 button {
   background-color: #F6F2E6;
   font-family: "Playfair Display SC", serif;
   border-radius: 10px;
   border-color: transparent;
+  font-size: 120%;
+  box-shadow: black 5px 5px 5px;
+  padding:8px;
+}
 
+button:active {
+  background-color: #0D6145;
+  font: #F6F2E6;
+  font-family: "Playfair Display SC", serif;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 120%;
+  box-shadow: black 5px 5px 5px;
+  padding:8px;
 }
