@@ -1,7 +1,7 @@
 days = ["Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
-for(i=0; i<document.getElementByClassName("day").length; i++){
+for(i=0; i<document.getElementsByClassName("day").length; i++){
   console.log(days[i]);
-  document.getElementByClassName("day")[i].id = days[i];
+  document.getElementsByClassName("day")[i].id = days[i];
 
 }
