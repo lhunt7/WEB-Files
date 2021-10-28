@@ -75,17 +75,11 @@ button {
 button:active {
   background-color: #0D6145;
   font: #F6F2E6;
-  font-family: "Playfair Display SC", serif;
-  border-radius: 10px;
-  border-color: transparent;
-  font-size: 120%;
-  box-shadow: black 5px 5px 5px;
-  padding:8px;
 }
 
 img {
   height: auto;
-  width: 1400px;
+  width: 100%;
   margin: none;
   padding: none;
 }

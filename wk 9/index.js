@@ -11,7 +11,7 @@ let index = 0;
 function buttonClicked() {
   console.log(photoArray[index]);
   document.getElementById("calmingphoto").src = photoArray[index];
-  if(index<=6){
+  if(index>=6){
     index=0;
   }else{
     index++
