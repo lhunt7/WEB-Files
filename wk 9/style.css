@@ -26,7 +26,7 @@ size: 130%;
 
 }
 
-#ToDo {
+.ToDo {
   width:43%;
   border: solid 5px;
   border-color: #0D6145;
@@ -37,7 +37,7 @@ size: 130%;
   background-color: #F6F2E6;
 }
 
-#section2 {
+.section2 {
   width:43%;
   border: solid 5px;
   border-color: #0D6145;
