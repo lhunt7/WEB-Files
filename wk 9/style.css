@@ -82,3 +82,10 @@ button:active {
   box-shadow: black 5px 5px 5px;
   padding:8px;
 }
+
+img {
+  height: auto;
+  width: 1400px;
+  margin: none;
+  padding: none;
+}

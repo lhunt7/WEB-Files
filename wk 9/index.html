@@ -40,6 +40,24 @@
 
 <section id="main">
 
+  <div id = "ToDoTue" class = "ToDo">
+
+    <h2>
+      To Do
+    </h2>
+
+    <p class = "checklist">
+      <label for="todo1"><input type="checkbox" name="TodoList" value = "walk" id="todo1" /> Go on a walk - 30 mins </label>
+
+      <label for="todo2"><input type="checkbox" name="TodoList" value = "sleep" id="todo2" /> sleep </label>
+
+      <label for="todo3"><input type="checkbox" name="TodoList" value = "eat" id="todo3" /> eat </label>
+
+      <label for="todo4"><input type="checkbox" name="TodoList" value = "read" id="todo4" /> read </label>
+    </p>
+
+  </div>
+
   <div id = "ToDoWed" class = "ToDo">
 
     <h2>
@@ -89,7 +107,7 @@
 
   <section >
 <img id="calmingphoto" src ="calm-image-1.jpg" alt ="calming scene of snowy mountains behind a lake"/>
-<button id="photobutton"> New Scene </button>
+<button id="photobutton" onclick="buttonClicked()"> New Scene </button>
   </section>
 <script type ="text/javascript" src="index.js"></script>
 </body>
