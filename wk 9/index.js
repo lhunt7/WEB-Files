@@ -31,7 +31,7 @@ function setActive(e){
 
 
 
-const photoArray = ["calm-image-2.jpg","calm-image-3.jpg","calm-image-4.jpg","calm-image-5.jpeg","calm-image-6.jpg","calm-image-7.jpg", "calm-image-8.jpg","calm-image-9.jpeg","calm-image-10.jpg","calm-image-11.jpg","calm-image-12.jpeg","calm-image-1.jpg"];
+const photoArray = ["calm-image-2.jpg","calm-image-3.jpg","calm-image-5.jpeg","calm-image-7.jpg", "calm-image-8.jpg","calm-image-9.jpeg","calm-image-10.jpg","calm-image-11.jpg","calm-image-12.jpeg","calm-image-13.jpg","calm-image-14.jpg","calm-image-1.jpg"];
 let index = 0;
 
 function buttonClicked() {

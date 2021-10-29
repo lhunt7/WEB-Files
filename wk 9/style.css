@@ -86,6 +86,8 @@ img {
 
 .activeDay {
 background-color: #0D6145;
-font: #F6F2E6;
 border-radius: 10px;
+}
+button .activeDay {
+font: #F6F2E6;
 }
