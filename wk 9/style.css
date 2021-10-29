@@ -83,3 +83,8 @@ img {
   margin: none;
   padding: none;
 }
+
+.activeDay {
+background-color: #0D6145;
+font: #F6F2E6;
+}
