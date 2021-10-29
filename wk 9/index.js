@@ -27,20 +27,17 @@ function setActive(e){
 
 
   }
-
-
-
 }
 
 
 
-const photoArray = ["calm-image-2.jpg","calm-image-3.jpg","calm-image-4.jpg","calm-image-5.jpeg","calm-image-6.jpg","calm-image-7.jpg","calm-image-1.jpg"];
+const photoArray = ["calm-image-2.jpg","calm-image-3.jpg","calm-image-4.jpg","calm-image-5.jpeg","calm-image-6.jpg","calm-image-7.jpg", "calm-image-8.jpg","calm-image-9.jpeg","calm-image-10.jpg","calm-image-11.jpg","calm-image-12.jpeg","calm-image-1.jpg"];
 let index = 0;
 
 function buttonClicked() {
   console.log(photoArray[index]);
   document.getElementById("calmingphoto").src = photoArray[index];
-  if(index>=6){
+  if(index>=11){
     index=0;
   }else{
     index++;
