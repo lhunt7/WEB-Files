@@ -1,7 +1,7 @@
 days = ["Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
-  document.getElementsByClassName("day")[i].addEventListener('click',setActive, false);
+
   document.getElementsByClassName("day")[i].id = days[i];
 
   document.getElementById("MonButton").addEventListener('click',setActive, false);
