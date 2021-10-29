@@ -67,14 +67,24 @@ button {
   font-family: "Playfair Display SC", serif;
   border-radius: 10px;
   border-color: transparent;
-  font-size: 120%;
+  font-size: 140%;
   box-shadow: black 5px 5px 5px;
-  padding:8px;
+  padding:10px;
+
 }
 
 button:active {
   background-color: #0D6145;
   font: #F6F2E6;
+}
+
+.dayButtons {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 170%;
 }
 
 img {
@@ -88,6 +98,7 @@ img {
 background-color: #0D6145;
 border-radius: 10px;
 }
+
 button .activeDay {
 font: #F6F2E6;
 }
