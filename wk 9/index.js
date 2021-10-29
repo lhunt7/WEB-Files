@@ -1,5 +1,5 @@
 let days = ["Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
-let lastday;
+let lastday = "Monday";
 
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
@@ -16,17 +16,21 @@ for(i=0; i<document.getElementsByClassName("day").length; i++){
 
 }
 
+
+
 function setActive(e){
-
-  e.target.classList.toggle("activeDay");
-  console.log(e.target.innerHTML);
-
   lastday = document.getElementsByClassName("activeDay")[0].id;
   if(lastday != undefined){
     document.getElementById("lastday").classList.toggle("activeDay");
-
-
   }
+
+  console.log(e.target.innerHTML);
+
+  e.target.classList.toggle("activeDay");
+
+
+  currentday = document.getElementsByClassName("activeDay")[0].id;
+  console.log("currentday");
 }
 
 
