@@ -46,6 +46,7 @@ size: 130%;
   padding: 20px;
   float:right;
   background-color: #F6F2E6;
+  font-size: 65%;
 }
 
 .checklist {
@@ -92,13 +93,4 @@ img {
   width: 100%;
   margin: none;
   padding: none;
-}
-
-.activeDay {
-background-color: #0D6145;
-border-radius: 10px;
-}
-
-button .activeDay {
-font: #F6F2E6;
 }
