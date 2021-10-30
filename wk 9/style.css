@@ -47,6 +47,8 @@ size: 130%;
   float:right;
   background-color: #F6F2E6;
   font-size: 65%;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .checklist {
