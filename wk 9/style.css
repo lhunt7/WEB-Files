@@ -96,3 +96,14 @@ img {
   margin: none;
   padding: none;
 }
+
+#song {
+  width:18%;
+  border: solid 5px;
+  border-color: #0D6145;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 5px;
+  background-color: #F6F2E6;
+}
