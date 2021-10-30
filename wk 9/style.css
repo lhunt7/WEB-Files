@@ -61,9 +61,7 @@ size: 130%;
   justify-content: space-evenly;
 }
 
-.days {
 
-}
 
 button {
   background-color: #F6F2E6;
@@ -106,4 +104,61 @@ img {
   padding: 20px;
   padding-top: 5px;
   background-color: #F6F2E6;
+}
+
+#TueTitle {
+  display:none;
+}
+#WedTitle {
+  display:none;
+}
+#ThuTitle {
+  display:none;
+}
+#FriTitle {
+  display:none;
+}
+#SatTitle {
+  display:none;
+}
+#SunTitle {
+  display:none;
+}
+
+#ToDoTue {
+    display:none;
+}
+#ToDoWed {
+    display:none;
+}
+#ToDoThu {
+    display:none;
+}
+#ToDoFri {
+    display:none;
+}
+#ToDoSat {
+    display:none;
+}
+#ToDoSun {
+    display:none;
+}
+
+#TueQuote {
+    display:none;
+}
+#WedQuote {
+    display:none;
+}
+#ThuQuote {
+    display:none;  
+}
+#FriQuote {
+    display:none;
+}
+#SatQuote {
+    display:none;
+}
+#SunQuote {
+    display:none;
 }
