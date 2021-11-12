@@ -3,8 +3,8 @@
 }
 
 @media screen and (max-width:701px){
-h1 {
-  font-size: 300%;
+#self {
+  display:none;
 }
 }
 
@@ -37,7 +37,7 @@ font-size: 120%;
 text-decoration: none;
 }
 
-img {
+#portfolio {
   width: 100%;
 }
 
@@ -54,4 +54,10 @@ li{
   display: grid;
   grid-template-columns: 2fr;
   grid-template-rows: 3fr;
+}
+
+#self {
+align-items: center;
+width 30%;
+
 }
