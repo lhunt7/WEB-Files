@@ -1,0 +1,123 @@
+/* @media screen and (min-width:700px){
+
+}
+
+@media screen and (max-width:701px){
+.homegrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+} */
+
+
+#homepage {
+    background-color: #271D15;
+    font-family: "Roboto Mono", monospace;
+}
+
+.otherpages {
+  background-color: #E6DCD4;
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  font-size: 120%;
+  font-weight: bolder;
+
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+nav {
+  text-align: right;
+}
+
+/* nav.hover {
+  font-size: 120%;
+} */
+
+.pages {
+  font-size: 120%;
+  text-decoration: none;
+  color:#271D15;
+}
+
+.pageshome {
+  font-size: 120%;
+  text-decoration: none;
+  color:#E6DCD4;
+}
+
+/* .pages.active {
+  color: #BDA18C;
+} */
+
+.homegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.box {
+  padding: 110px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: #BDA18C;
+  color: #271D15;
+}
+
+.box2 {
+  background-color: #E6DCD4;
+  color: #271D15;
+}
+
+.box3 {
+  background-color: #B4A79E;
+  color: #271D15;
+}
+
+.box4 {
+  background-color: #624226;
+  color:#E6DCD4;
+}
+
+.box5 {
+  background-color: #E6DCD4;
+  color: #271D15;
+}
+
+.box6 {
+  background-color: #BDA18C;
+  color: #271D15;
+}
+
+.experience {
+
+
+}
+
+#skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+
+}
+
+.images {
+  width: 100%;
+}
+
+#photos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
