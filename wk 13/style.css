@@ -27,6 +27,12 @@
   font-family: "Roboto Mono", monospace;
 }
 
+h1{
+  text-align: center;
+  font-size: 300%;
+  color: #271D15;
+}
+
 h2 {
   font-size: 120%;
   font-weight: bolder;
@@ -37,15 +43,22 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 210px;
+  cursor: pointer;
 }
 
 nav {
+  padding: 20px;
   text-align: right;
 }
 
-/* nav.hover {
-  font-size: 120%;
-} */
+.menu a {
+  margin: 5px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
 
 .pages {
   font-size: 120%;
@@ -59,12 +72,26 @@ nav {
   color:#E6DCD4;
 }
 
-/* .pages.active {
-  color: #BDA18C;
-} */
+.menu a:before {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
 
 .homegrid {
   display: grid;
+  padding: 10px;
 }
 
 .box {
@@ -75,21 +102,25 @@ nav {
 .box1 {
   background-color: #BDA18C;
   color: #271D15;
+  cursor: pointer;
 }
 
 .box2 {
   background-color: #E6DCD4;
   color: #271D15;
+  cursor: pointer;
 }
 
 .box3 {
   background-color: #B4A79E;
   color: #271D15;
+  cursor: pointer;
 }
 
 .box4 {
   background-color: #624226;
   color:#E6DCD4;
+  cursor: pointer;
 }
 
 .box5 {
@@ -100,11 +131,17 @@ nav {
 .box6 {
   background-color: #BDA18C;
   color: #271D15;
+  cursor: pointer;
 }
 
 .experience {
 
 
+}
+
+.box-names:hover{
+  text-decoration: underline;
+  font-size: 140%;
 }
 
 #skills {
@@ -120,21 +157,27 @@ nav {
 
 #photos{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #contact-li {
-width: 100px;
+  width: 100px;
 }
 
 #contact-email {
-width: 120px;
+  width: 120px;
 }
 
 .contact-info {
   padding-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+
+}
+
+.contact-links {
+  text-decoration: none;
+  color: #271D15;
 }
