@@ -5,6 +5,10 @@
   grid-template-rows: 1fr 1fr 1fr;
 }
 
+nav {
+  padding: 20px;
+}
+
 }
 
 @media screen and (max-width:701px){
@@ -13,6 +17,11 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+
+nav {
+  padding: 15px;
+}
+
 
 }
 
@@ -47,7 +56,6 @@ h2 {
 }
 
 nav {
-  padding: 20px;
   text-align: right;
 }
 
@@ -55,38 +63,57 @@ nav {
   margin: 5px;
 }
 
-.menu a:hover {
-  text-decoration: underline;
-}
-
-
 .pages {
   font-size: 120%;
   text-decoration: none;
   color:#271D15;
+  display: inline-block;
+  position: relative;
+}
+
+.pages:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #271D15;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.5s ease-out;
+}
+
+.pages:hover:after {
+  transform: scaleX(1);
+  transform-origin: right left ;
 }
 
 .pageshome {
   font-size: 120%;
   text-decoration: none;
   color:#E6DCD4;
+  display: inline-block;
+  position: relative;
+
 }
 
-.menu a:before {
+.pageshome:after {
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FFF;
-  visibility: hidden;
+  background-color: #E6DCD4;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
+  transform-origin: center;
+  transition: transform 0.5s ease-out;
 }
 
-.menu a:hover:before {
-  visibility: visible;
+.pageshome:hover:after {
   transform: scaleX(1);
+  transform-origin: right left ;
 }
 
 .homegrid {
@@ -102,7 +129,6 @@ nav {
 .box1 {
   background-color: #BDA18C;
   color: #271D15;
-  cursor: pointer;
 }
 
 .box2 {
@@ -134,15 +160,103 @@ nav {
   cursor: pointer;
 }
 
-.experience {
+/* .experience {
 
 
+} */
+
+.box2 .box-names {
+  display: inline-block;
+  position: relative;
 }
 
-.box-names:hover{
-  text-decoration: underline;
-  font-size: 140%;
+.box2 .box-names:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #271D15;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.5s ease-out;
 }
+
+.box2 .box-names:hover:after {
+  transform: scaleX(1);
+  transform-origin: right left ;
+}
+
+.box3 .box-names {
+  display: inline-block;
+  position: relative;
+}
+
+.box3 .box-names:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #271D15;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.5s ease-out;
+}
+
+.box3 .box-names:hover:after {
+  transform: scaleX(1);
+  transform-origin: right left ;
+}
+
+.box6 .box-names {
+  display: inline-block;
+  position: relative;
+}
+
+.box6 .box-names:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #271D15;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.5s ease-out;
+}
+
+.box6 .box-names:hover:after {
+  transform: scaleX(1);
+  transform-origin: right left ;
+}
+
+.box4 .box-names {
+  display: inline-block;
+  position: relative;
+}
+
+.box4 .box-names:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #E6DCD4;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.5s ease-out;
+}
+
+.box4 .box-names:hover:after {
+  transform: scaleX(1);
+  transform-origin: right left ;
+}
+
 
 #skills {
   display: grid;
@@ -157,7 +271,7 @@ nav {
 
 #photos{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #contact-li {
@@ -166,6 +280,10 @@ nav {
 
 #contact-email {
   width: 120px;
+}
+
+#myemail {
+  color: #E6DCD4;
 }
 
 .contact-info {
