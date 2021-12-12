@@ -288,7 +288,7 @@ nav {
 }
 
 .contact-info {
-  padding-top: 50px;
+  padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -299,4 +299,11 @@ nav {
 .contact-links {
   text-decoration: none;
   color: #271D15;
+}
+
+.projects {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
 }
