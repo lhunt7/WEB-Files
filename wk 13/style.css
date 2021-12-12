@@ -294,7 +294,7 @@ nav {
   width: 100%;
 }
 
-#photos{
+.photos{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -333,4 +333,20 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
+}
+
+.cwclink {
+  text-align: center;
+  padding: 20px;
+}
+
+.cwcposts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.post-ex {
+  padding-left: 5px;
+  padding-right: 5px;
 }
