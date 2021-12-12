@@ -335,18 +335,23 @@ nav {
   text-align: center;
 }
 
-.cwclink {
+.projectlink {
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 .cwcposts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .post-ex {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.g-site {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
