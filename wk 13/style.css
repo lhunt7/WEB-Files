@@ -9,6 +9,8 @@ nav {
   padding: 20px;
 }
 
+
+
 }
 
 @media screen and (max-width:701px){
@@ -22,9 +24,33 @@ nav {
   padding: 15px;
 }
 
-
 }
 
+@media screen and (min-width: 1400px){
+
+/* typing effect */
+  .typewriter {
+    overflow: hidden;
+    border-right: .15em solid #271D15;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation:
+      typing 5s steps(40, end),
+      cursor .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes cursor {
+    from, to { border-color: transparent }
+    50% { border-color: #271D15; }
+  }
+
+}
 
 #homepage {
     background-color: #271D15;
@@ -54,6 +80,8 @@ h2 {
   width: 210px;
   cursor: pointer;
 }
+
+/* nav bar and underline effect  */
 
 nav {
   text-align: right;
@@ -116,6 +144,8 @@ nav {
   transform-origin: right left ;
 }
 
+/* Home grid, boxes and underline */
+
 .homegrid {
   display: grid;
   padding: 10px;
@@ -160,11 +190,6 @@ nav {
   color: #271D15;
   cursor: pointer;
 }
-
-/* .experience {
-
-
-} */
 
 .box2 .box-names {
   display: inline-block;
@@ -258,12 +283,11 @@ nav {
   transform-origin: right left ;
 }
 
-
+/* hard skills grid */
 #skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px;
-
 }
 
 .images {
@@ -274,6 +298,8 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+/* contact page  */
 
 #contact-li {
   width: 100px;
@@ -293,13 +319,14 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   text-align: center;
-
 }
 
 .contact-links {
   text-decoration: none;
   color: #271D15;
 }
+
+/* projects page */
 
 .projects {
   padding-top: 30px;
