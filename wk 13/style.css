@@ -353,5 +353,14 @@ nav {
 .g-site {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
 
+.bbphotos {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.bb {
+  width: 100%;
+  align-items: center;
 }
